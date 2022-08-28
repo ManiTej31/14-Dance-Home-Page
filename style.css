@@ -53,6 +53,10 @@ hr{
     height: 30px;
 }
 
+.top-container{
+    margin: 0 30px;
+}
+
 .top-text{
     position: absolute;
     margin-left: 550px;
@@ -149,4 +153,116 @@ span{
     position: absolute;
     margin-top: -80px;
 
+}
+
+.bars{
+    display: none;
+}
+
+/* responsive */
+
+@media screen and (max-width: 400px){
+
+    nav{
+        justify-content: space-between;
+    }
+
+    .list-1{
+        display: none;
+    }
+
+    .bars{
+        display: inline;
+    }
+
+    .ham{
+        width:30px;
+        margin-top: 30px;
+        margin-right: 10px;
+    }
+
+    .logo-img{
+        height: 30px;
+        margin-left: 10px;
+    }
+
+    hr{
+        display: none;
+    }
+
+    .left-girl-image>img{
+        display:none;
+    }
+
+    .top-text{
+        position: absolute;
+        margin-left: 0px;
+    }   
+    
+    .white-txt,
+    .black{
+        font-size: 60px;
+    }
+
+    .black{
+        margin-top: -60px;
+    }
+
+    .top-p{
+        position: absolute;
+        margin-left: 135px;
+        margin-top: -30px;
+    }
+
+    .bottom-list{
+        display: none;
+    }
+
+    .bottom-container{
+        display: flex;
+    }
+
+    .bottom-p{
+        position: absolute;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+
+    button{
+        margin-left: 40px;
+        margin-top: 250px;;
+    }
+
+    .quote{
+        margin-left: 30px;
+        margin-bottom: 0px; 
+        margin-top: -0px; 
+        font-size: 60px;
+        font-weight: 300;
+    }
+
+    .dancer-image{
+        position: absolute;
+        height: 200px;
+         width: 200px;
+        margin-left: 80px;
+        margin-top: 110px;
+        padding-bottom:30px;
+        align-items: center;
+    }
+    
+
+    h1{
+        font-size:50px;
+        margin-top:30px;
+    }
+
+    .social-icons{
+        display: none;
+    }
+
+    .downarrow{
+        display: none;
+    }
+ 
 }
