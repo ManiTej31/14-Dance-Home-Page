@@ -13,4 +13,4 @@ Dance Home Page developed using HTML and Css
 
 ## Mobile Responsive Design
 
-![Mobile Design](./Images/14.mobile.jpeg)
+![Mobile Design](./images/14.mobile.jpeg)
